@@ -20,7 +20,7 @@
 }
 .left-content .content{
     position: relative;
-    top: 120px;
+    top: 110px;
     margin-left: 10%;
     height: auto;
     width: auto;
@@ -47,6 +47,9 @@
 }
 .right-content{
     /* border: 2px solid green; */
+    position: relative;
+    bottom: 100px;
+    /* top: 120px; */
     height: 100%;
     width: 40%;
     display: flex;
@@ -84,6 +87,7 @@
     
     .right-content{
         /* border: 2px solid red; */
+        bottom: 0px;
         height: 50%;
         width: 90vw;
     }
@@ -108,6 +112,15 @@
             font-size: 10px;
             
         }
+        
+    }
+   }
+   @media screen and (min-width: 370px) and (max-width: 500px){
+    .right-content{
+        /* border: 2px solid red; */
+        top: 50px;
+        height: 30%;
+        width: 90vw;
     }
    }
     

@@ -13,8 +13,6 @@
     height: 100%;
     width: 100%;
     flex-wrap: wrap;
-    /* border: 2px solid green; */
-    /* overflow: hidden; */
 }
 .skills .skill-card{
     display: flex;

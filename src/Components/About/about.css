@@ -48,7 +48,6 @@
 
 @media screen and (max-width: 900px) {
     .skills{
-        border: 2px solid red;
         height: auto;
     }
     .skills .skill-card{

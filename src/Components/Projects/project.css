@@ -68,3 +68,15 @@ transform:scale(1.1);
   
 }
 
+@media screen and (max-width: 900px){
+  .project-card{
+    width: 90%;
+    /* border: 2px solid red; */
+  }
+  .btns button{
+    font-size: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+}
+

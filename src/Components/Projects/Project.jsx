@@ -35,6 +35,9 @@ const Project = () => {
   return (
     <>
       {/* <h1>Projects</h1> */}
+      {/* <div className="">
+        <h1>Projects</h1>
+      </div> */}
 
       <div className="project-container" id="projects">
         {data.map((item, id) => {

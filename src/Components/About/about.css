@@ -46,3 +46,16 @@
     font-size: 30px;
 }
 
+@media screen and (max-width: 900px) {
+    .skills{
+        border: 2px solid red;
+        height: auto;
+    }
+    .skills .skill-card{
+        width: 90%;
+    }
+    .skills h2{
+        font-size: 20px;
+    }
+}
+

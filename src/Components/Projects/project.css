@@ -1,0 +1,70 @@
+.project-container{
+    height: auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    /* border: 2px solid red; */
+}
+.project-container h1{
+  font-size: 50px;
+    text-align: center;
+}
+
+.project-card{
+  /* border: 2px solid red; */
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 500px;
+  width: 450px;
+  background: #f3eeee;
+  /* background: 90%; */
+  box-shadow: 0 8px 8px -4px rgb(44, 157, 194);
+  /* background-color: rgba(0, 0, 0, 0.5); */
+}
+.project-card img{
+  /* object-fit: cover; */
+  height: 60%;
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+.project-card h2{
+  width: 100%;
+  font-size: 35px;
+  text-align: center;
+  
+}
+.btns{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: end;
+  height: 10%;
+  width: 100%;
+}
+.btns button{
+  height: 100%;
+  width: 50%;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 20px;
+  transition: all 1s ease-in-out;
+  
+}
+.btns button:hover{
+transform:scale(1.1);
+  
+}
+.btns button a{
+ text-decoration: none;
+ color: black;
+  
+}
+

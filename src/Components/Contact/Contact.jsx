@@ -10,7 +10,7 @@ import {
 import "./contact.css";
 const Contact = () => {
   return (
-    <div className="contact-container">
+    <div className="contact-container" id="contact">
       <a href="https://www.instagram.com/avishek_mistry/" target="_blank">
         <FaInstagram className="icon icon1" />
       </a>

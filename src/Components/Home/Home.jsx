@@ -1,8 +1,17 @@
 import React from "react";
 
 import homePagePic from "../../assets/images/homePageMainImage.png";
+// import pdf from "";
 import "./home.css";
 const Home = () => {
+  const downloadCV = () => {
+    const link = document.createElement("a");
+    link.href = "../../assets/"; // Path to your CV file in the public directory
+    link.download = "menu.png"; // The name of the downloaded file
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <div className="home-conatiner">
       <div className="left-content">
@@ -16,7 +25,7 @@ const Home = () => {
             responsive and dynamic web applications using React, Node.js, and
             Google Firebase.
           </p>
-          <button>Download CV</button>
+          <button onClick={downloadCV}>Download CV</button>
         </div>
       </div>
       <div className="right-content">

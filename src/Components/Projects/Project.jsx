@@ -7,6 +7,9 @@ import coustomCountdown from "../../assets/images/custom-countdown.png";
 import pictureInPicture from "../../assets/images/picture-in-picture.png";
 import "./project.css";
 
+import liveIcon from "../../assets/icons/live.png";
+import codeIcon from "../../assets/icons/application.png";
+
 const Project = () => {
   const data = [
     {
@@ -67,11 +70,17 @@ const Project = () => {
                   <a href={item.sourceLink} target="_blank">
                     Source Code
                   </a>
+                  <span>
+                    <img src={codeIcon} alt="live" />
+                  </span>
                 </button>
                 <button className="live-btn">
-                  <a href={item.liveLink} target="_blank">
-                    Live
+                  <a href={item.liveLink} target="_blank" className="live-link">
+                    Live{" "}
                   </a>
+                  <span>
+                    <img src={liveIcon} alt="live" />
+                  </span>
                 </button>
               </div>
             </div>

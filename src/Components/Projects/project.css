@@ -50,6 +50,8 @@
   width: 100%;
 }
 .btns button{
+  background-color: #ed8080;
+  
   height: 100%;
   width: 50%;
   font-size: 25px;
@@ -58,14 +60,45 @@
   transition: all 1s ease-in-out;
   
 }
+.btns .live-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.btns .source-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
 .btns button:hover{
 transform:scale(1.1);
   
 }
 .btns button a{
  text-decoration: none;
- color: black;
+ /* color: black;
+  */
+  color: aqua;
   
+}
+
+.live-btn span{
+  height: 40px;
+  width: 40px;
+}
+.live-btn span img{
+  height: 100%;
+  width: 100%;
+}
+.source-btn span{
+  height: 30px;
+  width: 30px;
+}
+.source-btn span img{
+  height: 100%;
+  width: 100%;
 }
 
 @media screen and (max-width: 900px){

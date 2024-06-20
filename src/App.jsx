@@ -14,34 +14,34 @@ function App() {
     <div className="app">
       {clicked ? (
         <div className="app-menu">
-          <ul className="nav-links">
-            <li>
+          <div className="nav-links">
+            <div className="li">
               <FaTimes
                 className="menu"
                 onClick={() => setClicked((prev) => !prev)}
               />
-            </li>
-            <li>
+            </div>
+            <div className="li">
               <a href="#home" onClick={() => setClicked((prev) => !prev)}>
                 Home
               </a>
-            </li>
-            <li>
+            </div>
+            <div className="li">
               <a href="#about" onClick={() => setClicked((prev) => !prev)}>
                 About
               </a>
-            </li>
-            <li>
+            </div>
+            <div className="li">
               <a href="#projects" onClick={() => setClicked((prev) => !prev)}>
                 Projects
               </a>
-            </li>
-            <li>
+            </div>
+            <div className="li">
               <a href="#contact" onClick={() => setClicked((prev) => !prev)}>
                 Contact
               </a>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
       ) : (
         <MainLayout clicked={clicked} setClicked={setClicked}>

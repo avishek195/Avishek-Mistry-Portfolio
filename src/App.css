@@ -23,7 +23,7 @@
     height: 40%;
     width: 5%;
 }
-.nav-links li{
+.nav-links .li{
     
     height: 50%;
     /* margin-top: 10px; */
@@ -35,7 +35,7 @@
     
     
 }
-.nav-links li a{
+.nav-links .li a{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,45 +46,3 @@
     text-decoration: none;
     
 }
- @media screen and (max-width: 900px) {
-    .nav-links{
-        
-        height: auto;
-        width: 100vw;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        /* gap: 20px; */
-        
-    }
-    
-    .nav-links .menu{
-        cursor: pointer;
-        height: 40%;
-        width: 5%;
-    }
-    .nav-links li{
-        
-        height: 50%;
-        /* margin-top: 10px; */
-        width: 100vw;
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-        
-    }
-    .nav-links li a{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-        width: 100%;
-        color:rgb(34, 53, 16);
-        font-size: 25px;
-        text-decoration: none;
-        
-    }
- }

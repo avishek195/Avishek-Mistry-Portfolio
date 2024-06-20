@@ -67,6 +67,7 @@
   gap: 10px;
 }
 .btns .source-btn{
+  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -77,6 +78,7 @@ transform:scale(1.1);
   
 }
 .btns button a{
+  /* border: 2px solid black; */
  text-decoration: none;
  /* color: black;
   */
@@ -107,7 +109,7 @@ transform:scale(1.1);
     /* border: 2px solid red; */
   }
   .btns button{
-    font-size: 20px;
+    font-size: 15px;
     overflow: hidden;
     border-radius: 10px;
   }

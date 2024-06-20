@@ -7,8 +7,9 @@ import "./home.css";
 const Home = () => {
   const downloadCV = () => {
     const link = document.createElement("a");
-    link.href = "../../../public/AVISHEK_MISTRY_CV.pdf";
-    link.download = "AVISHEK_MISTRY_CV.pdf";
+    link.href =
+      "https://drive.google.com/file/d/1bsYQmgWMGrXk6JnjBNqTDSIQ990UpP3y/view?usp=sharing";
+    link.target = "_blank";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

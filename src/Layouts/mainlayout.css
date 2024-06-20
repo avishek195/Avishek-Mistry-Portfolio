@@ -13,23 +13,31 @@ justify-content: space-between;
 .logo-section{
     /* position: relative; */
     margin-left: 7%;
+    cursor: pointer;
 }
 
 
 
+
 .nav-links-menu{
-    height: 35px;
-    width: 35px;
+    /* border: 2px solid red; */
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
     margin-right: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
+.nav-links-menu .menu{
+    height: 100%;
+    width: 100%;
+}
 
 .footer{
     height: 80px;
-width: 100vw;
+    width: 100vw;
     /* border: 2px solid red; */
     display: flex;
     align-items: center;
@@ -41,27 +49,11 @@ width: 100vw;
 }
 
 @media screen and (max-width: 600px) {
-    .logo-section{
-        /* margin-left: 10%; */
-        font-size: 10px;
-    }
     .footer{
         height: auto;
-    
     }
     .footer h2{
-        /* border: 2px solid red; */
         height: auto;
         text-align: center;
     }
-    /* .nav-links{
-        height: 40%;
-    width: 10%;
-    }
-
-    .nav-links .menu{
-        border: 2px solid red;
-        height: 100%;
-        width: 100%;
-    } */
 }

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import manuBar from "../assets/menu.png";
+import AOS from "aos";
 import "./mainlayout.css";
-const MainLayout = ({ children, clicked, setClicked }) => {
-  // const [] = useState(false);
+const MainLayout = ({ children, setClicked }) => {
   return (
     <div className="main-container">
       <header className="navbar-container">

@@ -56,5 +56,8 @@
     .skills h2{
         font-size: 20px;
     }
+    .skills .skill-card:hover{
+        transform: scale(1.1);
+    }
 }
 

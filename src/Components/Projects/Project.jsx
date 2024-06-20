@@ -61,7 +61,7 @@ const Project = () => {
       <div className="project-container" id="projects">
         {data.map((item, id) => {
           return (
-            <div className="project-card">
+            <div key={id} className="project-card">
               <img src={item.imgSrc} alt="projects" />
               <h2>{item.title}</h2>
               <div className="btns">
